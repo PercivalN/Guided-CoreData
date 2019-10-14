@@ -15,13 +15,19 @@ class TaskController {
 
 	// Create
 	func createTask(with name: String, notes: String, context: NSManagedObjectContext) {
-
-		let task = Task(name: name, notes: notes, context: context)
+		Task(name: name, notes: notes, context: context)
+		// Saves everything to the persistent store
+		CoreDataStack.shared.saveToPersistentStore()
 	}
 
 	// Read
 
 	// Update
+	func updateTask(task: Task, with name: String, notes: String) {
+		task.name = name
+		task.notes = notes
+		CoreDataStack.shared.saveToPersistentStore()
+	}
 
 	// Delete
 }

@@ -15,6 +15,8 @@
 		DDAE60F02354DDA200F25645 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAE60EF2354DDA200F25645 /* CoreDataStack.swift */; };
 		DDAE60F22354E62A00F25645 /* Task+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAE60F12354E62A00F25645 /* Task+Convenience.swift */; };
 		DDAE60F42354EB3900F25645 /* TaskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAE60F32354EB3900F25645 /* TaskController.swift */; };
+		DDAE60F62354EE1C00F25645 /* TasksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAE60F52354EE1C00F25645 /* TasksTableViewController.swift */; };
+		DDAE60F82354EFEF00F25645 /* TaskDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAE60F72354EFEF00F25645 /* TaskDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		DDAE60EF2354DDA200F25645 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		DDAE60F12354E62A00F25645 /* Task+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+Convenience.swift"; sourceTree = "<group>"; };
 		DDAE60F32354EB3900F25645 /* TaskController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskController.swift; sourceTree = "<group>"; };
+		DDAE60F52354EE1C00F25645 /* TasksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksTableViewController.swift; sourceTree = "<group>"; };
+		DDAE60F72354EFEF00F25645 /* TaskDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 		9D4408DA211FF50D005E2116 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				DDAE60F52354EE1C00F25645 /* TasksTableViewController.swift */,
+				DDAE60F72354EFEF00F25645 /* TaskDetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -177,6 +183,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDAE60F62354EE1C00F25645 /* TasksTableViewController.swift in Sources */,
+				DDAE60F82354EFEF00F25645 /* TaskDetailViewController.swift in Sources */,
 				DDAE60F22354E62A00F25645 /* Task+Convenience.swift in Sources */,
 				DDAE60F02354DDA200F25645 /* CoreDataStack.swift in Sources */,
 				DDAE60EE2354DAD200F25645 /* Tasks.xcdatamodeld in Sources */,
