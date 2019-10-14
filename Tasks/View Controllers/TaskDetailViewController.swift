@@ -13,17 +13,14 @@ class TaskDetailViewController: UIViewController {
 	var taskController: TaskController?
 	var task: Task?
 
-
 	@IBOutlet weak var nameTextField: UITextField!
 	@IBOutlet weak var notesTextField: UITextView!
 
-	
 	override func viewDidLoad() {
         super.viewDidLoad()
 		updateViews()
         // Do any additional setup after loading the view.
     }
-    
 
 	@IBAction func save(_ sender: Any) {
 		// Grab the text from the text views
@@ -38,6 +35,7 @@ class TaskDetailViewController: UIViewController {
 			}
 		}
 
+		navigationController?.popViewController(animated: true)
 	}
 
 	func updateViews() {
@@ -48,14 +46,4 @@ class TaskDetailViewController: UIViewController {
 		notesTextField.text = task?.notes
 
 	}
-	/*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
