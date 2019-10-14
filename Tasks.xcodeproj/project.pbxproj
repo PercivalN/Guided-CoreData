@@ -11,6 +11,7 @@
 		9D4408CC211FF431005E2116 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D4408CA211FF431005E2116 /* Main.storyboard */; };
 		9D4408CE211FF434005E2116 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D4408CD211FF434005E2116 /* Assets.xcassets */; };
 		9D4408D1211FF434005E2116 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D4408CF211FF434005E2116 /* LaunchScreen.storyboard */; };
+		DDAE60EE2354DAD200F25645 /* Tasks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDAE60EC2354DAD200F25645 /* Tasks.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		9D4408CD211FF434005E2116 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D4408D0211FF434005E2116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D4408D2211FF434005E2116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDAE60ED2354DAD200F25645 /* Tasks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tasks.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		9D4408D9211FF4EA005E2116 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DDAE60EC2354DAD200F25645 /* Tasks.xcdatamodeld */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDAE60EE2354DAD200F25645 /* Tasks.xcdatamodeld in Sources */,
 				9D4408C7211FF431005E2116 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +367,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DDAE60EC2354DAD200F25645 /* Tasks.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DDAE60ED2354DAD200F25645 /* Tasks.xcdatamodel */,
+			);
+			currentVersion = DDAE60ED2354DAD200F25645 /* Tasks.xcdatamodel */;
+			path = Tasks.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9D4408BB211FF430005E2116 /* Project object */;
 }
