@@ -49,5 +49,4 @@ class CoreDataStack {
 			mainContext.reset()
 		}
 	}
-
 }

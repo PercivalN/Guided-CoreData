@@ -14,8 +14,10 @@ class TaskController {
 	// CRUD - Create, Read, Update, Delete
 
 	// Create
-	func createTask(with name: String, notes: String, context: NSManagedObjectContext) {
-		Task(name: name, notes: notes, context: context)
+	func createTask(with name: String, notes: String,
+					priority: TaskPriority,	context: NSManagedObjectContext) {
+		Task(name: name, notes: notes,
+			priority: priority, context: context)
 		// Saves everything to the persistent store
 		CoreDataStack.shared.saveToPersistentStore()
 	}
@@ -23,9 +25,10 @@ class TaskController {
 	// Read
 
 	// Update
-	func updateTask(task: Task, with name: String, notes: String) {
+	func updateTask(task: Task, with name: String, notes: String, priority: TaskPriority) {
 		task.name = name
 		task.notes = notes
+		task.priority = priority.rawValue
 		CoreDataStack.shared.saveToPersistentStore()
 	}
 
