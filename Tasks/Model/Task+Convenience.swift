@@ -19,8 +19,12 @@ enum TaskPriority: String, CaseIterable{
 extension Task {
 
 	// This initializer sets up the Core Data (NSManagedObject) part of the Task, then gives it the properties unique to a Task entity
+<<<<<<< Updated upstream
 	 @discardableResult convenience init(name: String, notes: String,
 										 priority: TaskPriority, context: NSManagedObjectContext) {
+=======
+	 @discardableResult convenience init(name: String, notes: String, context: NSManagedObjectContext) {
+>>>>>>> Stashed changes
 
 		// Setup NSManagedObject
 		// Calling the designated initializer 

@@ -141,7 +141,10 @@
                     <connections>
                         <outlet property="nameTextField" destination="QoX-Lu-hGg" id="COy-F9-1Yb"/>
                         <outlet property="notesTextField" destination="0Ff-ma-Dqn" id="t8a-F7-r2x"/>
+<<<<<<< Updated upstream
                         <outlet property="prioritySegmentedControl" destination="Awp-en-23F" id="zKn-oc-xlc"/>
+=======
+>>>>>>> Stashed changes
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bh8-ef-2je" userLabel="First Responder" sceneMemberID="firstResponder"/>
